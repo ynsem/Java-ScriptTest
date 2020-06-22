@@ -4,6 +4,7 @@
 # среда запуска кода
 env:
   node: true
+  browser: true
 
 extends:
   - 'airbnb-base'
@@ -11,3 +12,5 @@ extends:
 rules:
   no-console: "off" # получить возможность использовать console
   import/extensions: "off" # получить возможность указывать при импорте файлы с расширением
+  prefer-destructuring: "off"
+  no-restricted-syntax: "off"
