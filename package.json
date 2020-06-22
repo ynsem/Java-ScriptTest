@@ -1,0 +1,31 @@
+{
+  "name": "java-scripttest",
+  "version": "1.0.0",
+  "description": "java & script test",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production babel src --out-dir dist",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ynsem/Java-ScriptTest.git"
+  },
+  "author": "ynsem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ynsem/Java-ScriptTest/issues"
+  },
+  "homepage": "https://github.com/ynsem/Java-ScriptTest#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/node": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "eslint": "^7.3.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "prettier": "^2.0.5"
+  }
+}
